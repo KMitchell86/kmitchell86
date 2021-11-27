@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@main
       - name: Deploy to Azure Web App      
       - uses: azure/webbapps-deploy@v1
-        with: cmst385-Kmitchell86
+        with: CMST385-kmitchell86
         name: 'production'
 
 
