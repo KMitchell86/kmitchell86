@@ -26,8 +26,8 @@ jobs:
       - uses: actions/checkout@main
       - name: Deploy to Azure Web App      
       - uses: azure/webbapps-deploy@v1
-      - with: cmst385-Kmitchell86
-      - slot-name: 'production'
+        with: cmst385-Kmitchell86
+        name: 'production'
 
 
       # Runs a single command using the runners shell
