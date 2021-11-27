@@ -24,8 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@main
-      - name: Deploy to Azure Web App
-      
+      - name: Deploy to Azure Web App      
       -uses: azure/webbapps-deploy@v1
       with: cmst385-Kmitchell86
       slot-name: 'production'
